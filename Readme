@@ -1,6 +1,25 @@
-This program is a simple song list that allows a user to track songs that they wish to learn and songs they have completed learning. The program reads and writes a list of songs in a file.
+CP1404 2018 SP53 Assignment 1
+Assignment 1 for CP1404, 2018 SP53, IT@JCU
+
+
+This program is a simple song list that allows a user to track songs that they wish to learn
+and songs they have completed learning. The program reads and writes a list of songs in a file.
 Each song has:
-•	title, artist, year, whether it is required (y) or learned (n)
+• title, artist, year, whether it is required (y) or learned (n)
 Users can choose to see the list of songs, which should be sorted by artist then by title.
 Users can add new songs and mark songs as learned.
 They cannot change songs from learned to required.
+
+How long did the entire project (assignment 1) take you?
+The assignment took me around 15 hours, first 9 hours i manage to do the full coding then the next 1 hour
+I was making sure the program is working properly. However the code was not efficient so i spent another
+5 hours to edit the code to make it better.
+
+What do you plan to do differently in your development process for assignment 2?
+I would first read the assignment description at least 3 times to make sure i fully understand the what to do
+because when I was doing the assignment 1 I was not sure at some parts of the coding. Next I was trying to do all
+the parts at the same time, which was a mistake as it took me more time. Therefore, for assignment 2 I will do
+step by step then check if it works properly. By doing this i can efficiently use the time i have to do the
+assignment 2.
+
+© 2018 GitHub, Inc.
