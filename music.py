@@ -1,4 +1,6 @@
-# Mohamed Rizwan S/O Rowthersa ID:13559521 09 December 2018
+# Name: Mohamed Rizwan S/O Rowthersa
+# ID: 13559521
+# Date: 09 December 2018
 #
 # This program is a simple song list that allows a user to track songs that they wish to learn and songs they have completed learning. The program reads and writes a list of songs in a file. Each song has:
 # •	title, artist, year, whether it is required (y) or learned (n)
