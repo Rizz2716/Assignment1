@@ -20,7 +20,6 @@ def main():
 
     print("Welcome Rizwan")
     print(MENU)
-
     option = input("Enter your choice ").upper()
     temp_file = open("songs.csv", "r")
     songs_list = temp_file.readlines()
@@ -33,6 +32,18 @@ def main():
         num_y = 0
         num_n = 0
         num = 0
+     # """
+     # Read songs in CSV file
+     # songs_list = Songs
+     # Final_list = songs_list
+     # if option = L
+     #  for song in final list:
+     #    if  song[3} == y (required )
+     #        print (song with * in it)
+     #    else
+     #        print( song )
+     # print( number of songs learned and number of song still to learn
+     # """
         if option == "L":
             for song in final_list:
                 if song[3] == 'y':
@@ -77,6 +88,26 @@ def main():
             new_song.append("y")
             final_list.append(new_song)
             print(title, "by", artist, "(",year,") added to song list")
+# """
+#     for song in final list:
+#        if  song[3} == y (required )
+#            print (song with * in it)
+#        else
+#            print( song )
+#     prompt user for song_num that user wants to learn
+#     get song_num
+#     if song_num <0 or song_num > num of songs
+#         print (Invalid input)
+#     else
+#       break
+#     if num_y(requried song) == 0
+#        print (no more song to learn)
+#     elif final_list[song_num-1][3] == "n":
+#                 print(song is already learned")
+#     else:
+#                 final_list[song_num-1][3] = "n"
+#                 print(song is learned")
+#     """
         elif option == "C":
             for song in final_list:
                 if song[3] == 'y':
